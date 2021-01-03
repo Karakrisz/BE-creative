@@ -1,0 +1,33 @@
+#slide-2-layer-3 {
+    color: black !important;
+    padding: 70px 0 0 !important;
+}
+
+#slide-2-layer-2 {
+    font-size: 25px !important;
+}
+
+#slide-1-layer-3 {
+    padding: 100px 0 0 !important;
+}
+
+#slide-4-layer-2 {
+    font-size: 25px !important;
+}
+
+#slide-4-layer-3 {
+    padding: 80px 0 0 !important;
+}
+
+#slide-1-layer-2 {
+    font-size: 25px !important;
+}
+
+.flip-box-front,
+.flip-box-back {
+    height: auto;
+}
+
+.flip-box p {
+    padding: 10px;
+}
