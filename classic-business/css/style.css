@@ -31,6 +31,12 @@
     Scrollbar
 ====================================== */
 
+/* ===================================
+    KaraKrisz Replace
+    red
+====================================== */
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -109,9 +115,9 @@ a {
 }
 
 .btn.btn-light-blue {
-  color: #032a58;
+  color: red;
   background: transparent;
-  border-color: #032a58;
+  border-color: red;
 }
 
 .btn.trans-btn {
@@ -124,7 +130,7 @@ a {
 .btn.btn-hvr-blue:hover,
 .btn.btn-hvr-blue:focus {
   color: #fff;
-  border-color: #032a58;
+  border-color: red;
   background: transparent !important;
 }
 
@@ -138,7 +144,7 @@ a {
 .btn.btn-hvr-light-blue:hover,
 .btn.btn-hvr-light-blue:focus {
   color: #fff;
-  border-color: #032a58;
+  border-color: red;
   background: transparent !important;
 }
 
@@ -153,8 +159,8 @@ a {
 }
 
 .btn.btn-hvr-light-blue .btn-hvr-light-blue {
-  background: #032a58;
-  border-color: #032a58;
+  background: red;
+  border-color: red;
 }
 
 .btn.btn-hvr-white .btn-hvr-effect {
@@ -163,8 +169,8 @@ a {
 }
 
 .btn.btn-hvr-light-blue .btn-hvr-effect {
-  background: #032a58;
-  border-color: #032a58;
+  background: red;
+  border-color: red;
 }
 
 .btn-hvr-setting {
@@ -258,14 +264,17 @@ a {
     opacity: 1;
     transform: translate(0, 0)
   }
+
   49.99% {
     opacity: 1;
     transform: translate(60px, 0)
   }
+
   50% {
     opacity: 0;
     transform: translate(60px, 0)
   }
+
   100% {
     opacity: 0;
     transform: translate(0, 0)
@@ -276,9 +285,11 @@ a {
   0% {
     transform: translate(0, 0)
   }
+
   50% {
     transform: translate(60px, 0)
   }
+
   100% {
     transform: translate(0, 0)
   }
@@ -316,7 +327,7 @@ a {
 }
 
 .loader div:nth-child(1) {
-  background: #032a58;
+  background: red;
   animation: ldio-8v0e2g029us 1.4492753623188404s linear infinite;
   animation-delay: -0.7246376811594202s;
 }
@@ -328,7 +339,7 @@ a {
 }
 
 .loader div:nth-child(3) {
-  background: #032a58;
+  background: red;
   animation: ldio-8v0e2g029us-o 1.4492753623188404s linear infinite;
   animation-delay: -0.7246376811594202s;
 }
@@ -346,7 +357,7 @@ a {
   margin-bottom: 0;
   z-index: 111;
   align-items: flex-end;
-  background-color: #032a58 !important;
+  background-color: red !important;
 }
 
 .navbar-brand img {
@@ -539,7 +550,7 @@ a {
   height: 24px;
   width: 2px;
   content: ' ';
-  background: #032a58;
+  background: red;
   position: absolute;
 }
 
@@ -631,7 +642,7 @@ a {
 
 .side-nav .navbar-nav .nav-link {
   display: inline-table;
-  color: #032a58;
+  color: red;
   padding: 2px 0 3px 0 !important;
   font-size: 24px;
   line-height: normal;
@@ -646,7 +657,7 @@ a {
   width: 0;
   bottom: 0;
   height: 2px;
-  background: #032a58;
+  background: red;
   overflow: hidden;
   position: absolute;
   display: inline-block;
@@ -744,7 +755,7 @@ a {
 }
 
 .flip-box .blue-box .flip-box-back {
-  background-color: #032a58;
+  background-color: red;
   transform: rotateX(180deg);
 }
 
@@ -762,7 +773,7 @@ a {
 }
 
 .flip-box-back {
-  background-color: #032a58;
+  background-color: red;
   transform: rotateX(180deg);
 }
 
@@ -802,7 +813,7 @@ a {
 }
 
 .flip-box .blue-box h5 {
-  color: #032a58;
+  color: red;
 }
 
 .flip-box .flip-box-back p {
@@ -810,11 +821,11 @@ a {
 }
 
 .flip-box .blue-box .flip-box-front p {
-  color: #032a58;
+  color: red;
 }
 
 .flip-box .blue-box .flip-box-front i {
-  color: #032a58;
+  color: red;
 }
 
 /* ===================================
@@ -865,7 +876,7 @@ a {
 
 .counter-section .media .media-body span {
   font-size: 38px;
-  color: #032a58;
+  color: red;
 }
 
 .counter-section .media .media-body p {
@@ -907,7 +918,7 @@ a {
 }
 
 .team-section .item:hover .team-detail {
-  background: #032a58;
+  background: red;
   transition: .6s ease;
 }
 
@@ -920,7 +931,7 @@ a {
 }
 
 .team-section .team-detail h5 {
-  color: #032a58;
+  color: red;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 0;
@@ -949,7 +960,7 @@ a {
   width: 38px;
   height: 12px;
   border-radius: 50px;
-  background-color: #032a58;
+  background-color: red;
   transition: .8s ease;
 }
 
@@ -1022,11 +1033,11 @@ a {
 }
 
 .cubeportfolio .cbp-l-filters-buttonCenter .cbp-filter-item:hover {
-  color: #032a58;
+  color: red;
 }
 
 .cubeportfolio .cbp-l-filters-buttonCenter .cbp-filter-item-active.cbp-filter-item {
-  color: #032a58;
+  color: red;
 }
 
 .cubeportfolio .cbp-l-caption-body .title {
@@ -1035,11 +1046,11 @@ a {
 }
 
 .cubeportfolio .cbp-l-grid-mosaic-flat .cbp-caption-activeWrap {
-  background: #032a58;
+  background: red;
 }
 
 .cubeportfolio .cbp-l-grid-mosaic-flat .cbp-caption-activeWrap:hover {
-  background-color: #032a58;
+  background-color: red;
   opacity: 0.8;
 }
 
@@ -1168,7 +1179,7 @@ a {
 }
 
 .active .price-tag h4 {
-  color: #032a58;
+  color: red;
 }
 
 .price-tag p {
@@ -1177,7 +1188,7 @@ a {
 }
 
 .active .price-tag p {
-  color: #032a58;
+  color: red;
   font-size: 14px;
 }
 
@@ -1192,7 +1203,7 @@ a {
   font-size: 18px;
   padding: 50px;
   color: #fff;
-  background-color: #032a58;
+  background-color: red;
 }
 
 .price-item ul {
@@ -1323,7 +1334,7 @@ a {
 .contact-section .media-body h5 {
   font-size: 14px;
   font-weight: 700;
-  color: #032a58;
+  color: red;
   margin-bottom: 10px;
 }
 
@@ -1384,6 +1395,7 @@ footer p {
 ====================================== */
 
 @media (max-width: 1200px) {
+
   /*Loader*/
   .loader {
     top: 40%;
@@ -1395,6 +1407,7 @@ footer p {
     right: 0;
     margin-right: 9px;
   }
+
   .navbar-light .navbar-nav .nav-item {
     font-size: 15px;
   }
@@ -1403,6 +1416,7 @@ footer p {
   .side-menu {
     width: 45%;
   }
+
   .side-menu-footer p {
     font-size: 18px;
   }
@@ -1416,16 +1430,19 @@ footer p {
   .quote-section .left-quote {
     margin-left: 50px;
   }
+
   .quote-section .right-quote {
     margin-right: 50px;
   }
 }
 
 @media (max-width: 991px) {
+
   /*General*/
   h2 {
     font-size: 40px;
   }
+
   p {
     font-size: 16px;
   }
@@ -1440,9 +1457,11 @@ footer p {
   .navbar .social-icons ul li {
     display: none;
   }
+
   .navbar-light .navbar-nav .nav-item {
     font-size: 13px;
   }
+
   .sidemenu_btn {
     right: 0;
   }
@@ -1466,15 +1485,19 @@ footer p {
   .counter-section {
     text-align: center;
   }
+
   .counter-section .media {
     display: block;
   }
+
   .counter-section .media i {
     margin-bottom: 20px;
   }
+
   .counter-section .media .media-body {
     padding-left: 0;
   }
+
   .counter-section .media .media-body p {
     text-align: center;
   }
@@ -1483,9 +1506,11 @@ footer p {
   .quote-section h3 {
     font-size: 29px;
   }
+
   .quote-section .left-quote {
     margin-left: 18px;
   }
+
   .quote-section .right-quote {
     margin-right: 28px;
   }
@@ -1495,9 +1520,11 @@ footer p {
     margin-top: 25px;
     margin-bottom: 25px;
   }
+
   .single-price {
     margin-bottom: 40px;
   }
+
   .single-price.active {
     transform: translateY(0px);
   }
@@ -1506,42 +1533,51 @@ footer p {
   .blog-section {
     text-align: center;
   }
+
   .blog-section img {
     width: 100%;
     margin-left: 0;
   }
+
   .blog-section .right-text .button {
     float: none;
   }
+
   .blog-section h2 {
     text-align: center;
   }
+
   .blog-section p {
     font-size: 15px;
     text-align: center;
   }
+
   .right-text h2 {
     margin-top: 0;
     text-align: center;
   }
+
   .right-text p {
     text-align: center;
   }
 
   /*Contact Section*/
-  .contact-section .contact-form{
+  .contact-section .contact-form {
     margin-right: 0;
   }
 }
 
 @media (max-width: 767px) {
+
   /*General*/
   p {
     font-size: 15px;
   }
+
   h2 {
     font-size: 35px;
   }
+
   .wow {
     visibility: visible !important;
     animation: none !important;
@@ -1562,10 +1598,12 @@ footer p {
   .side-menu {
     width: 100%;
   }
+
   .sidemenu_btn {
     top: 10px;
     right: 0;
   }
+
   .side-menu-footer p {
     font-size: 16px;
   }
@@ -1592,10 +1630,12 @@ footer p {
 }
 
 @media (max-width: 575px) {
+
   /*General*/
   h2 {
     font-size: 33px;
   }
+
   .opacity-2 {
     opacity: .7;
   }
@@ -1615,16 +1655,19 @@ footer p {
   .quote-section h3 {
     font-size: 27px;
   }
+
   .quote-section .right-quote {
     margin-top: 6px;
   }
 }
 
 @media (max-width: 400px) {
+
   /*General*/
   h2 {
     font-size: 30px;
   }
+
   p {
     font-size: 14px;
   }
